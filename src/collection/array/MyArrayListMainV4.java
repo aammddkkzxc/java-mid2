@@ -15,5 +15,8 @@ public class MyArrayListMainV4 {
         intList.add(3);
         Integer integer = intList.get(0);
         System.out.println(integer);
+
+        intList.badAdd("잘못됨");
+//        Integer integer1 = intList.get(3);
     }
 }

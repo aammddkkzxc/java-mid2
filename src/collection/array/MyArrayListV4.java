@@ -38,6 +38,14 @@ public class MyArrayListV4<E> {
         size++;
     }
 
+    public void badAdd(Object o) {
+        if (size == elementData.length) {
+            grow();
+        }
+
+        elementData[size++] = o;
+    }
+
     private void shiftRightFrom(int index) {
         for (int i = size; i > index; i--) {
             elementData[i] = elementData[i - 1];
