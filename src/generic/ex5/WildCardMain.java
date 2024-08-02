@@ -20,5 +20,8 @@ public class WildCardMain {
 
         Dog dog = WildCardEx.printAndReturnGeneric(dogBox);
         Animal animal = WildCardEx.printAndReturnWildCard(dogBox);
+
+        //불가
+//        Dog dog2 = WildCardEx.printAndReturnWildCard(dogBox);
     }
 }
