@@ -21,4 +21,12 @@ public class MyUser implements Comparable<MyUser> {
                 ", age=" + age +
                 '}';
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
