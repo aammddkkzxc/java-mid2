@@ -13,5 +13,9 @@ public class MyArrayMain {
             Integer value = iterator.next();
             System.out.println("value = " + value);
         }
+
+        for (int value : myArray) {
+            System.out.println("value = " + value);
+        }
     }
 }
